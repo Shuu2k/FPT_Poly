@@ -322,7 +322,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, "Tuoi > 16!!");
                 throw new Exception();
             }
-            String rePhone = "0[0-9](9)";
+            String rePhone = "0[0-9]9}";
             if (!txtPN.getText().matches(rePhone)) {
                 JOptionPane.showMessageDialog(this, "Wrong Format Phone Number!!");
                 throw new Exception();
